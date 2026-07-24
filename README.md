@@ -1,5 +1,9 @@
 # The Research Desk
 
+Live demo
+
+🔗 [https://research-desky.streamlit.app/].
+
 A multi-agent research paper pipeline: give it a topic, and it searches ArXiv, reads
 the papers, and writes up what's changed — end to end, orchestrated with LangChain
 and served through a Streamlit UI.
