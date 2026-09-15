@@ -15,10 +15,10 @@ from langchain_core.runnables import RunnableLambda, RunnableSequence
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 
 
-GROQ_MODEL_FILTER = "llama-3.1-8b-instant"          
-GROQ_MODEL_EXTRACT = "llama-3.3-70b-versatile"      
-GROQ_MODEL_SYNTHESIS = "llama-3.3-70b-versatile"    
-GROQ_MODEL_QA = "llama-3.3-70b-versatile"            
+GROQ_MODEL_FILTER ="openai/gpt-oss-20b"        
+GROQ_MODEL_EXTRACT = "openai/gpt-oss-120b"   
+GROQ_MODEL_SYNTHESIS = "openai/gpt-oss-120b" 
+GROQ_MODEL_QA = "openai/gpt-oss-120b"       
 
 FETCH_MULTIPLIER = 8          
 PDF_TEXT_CHAR_LIMIT = 14000   
